@@ -1,5 +1,5 @@
 import './style.css'
-import productData from '../data.json'
+import productData from './data.json'
 import { DatabaseService } from './database.service';
 import type { Product, CartItem } from './database.service';
 
