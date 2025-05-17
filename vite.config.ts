@@ -7,5 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: 'index.html', // Tell Vite to use root-level index.html
     },
+    assetsDir: 'assets',
   },
+  publicDir: 'public',
 });
